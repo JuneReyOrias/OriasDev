@@ -85,7 +85,7 @@ function Home() {
         </a>
       
         <a
-            href="https://drive.google.com/drive/folders/1pI8Nq4g313L79jrguIJvaBqmYI-gy7ut" // <-- change to your actual resume file path
+            href="https://drive.google.com/file/d/1fQIOZc3yr-ajLdsr0bqXiUTOCXUlDzCe/view?usp=sharing" // <-- change to your actual resume file path
             className="text-green-500 hover:text-white transition transform hover:scale-110"
             title="Resume"
             target="_blank"
