@@ -60,7 +60,7 @@ function Home() {
         </a>
       
         <a
-            href="https://drive.google.com/file/d/1fQIOZc3yr-ajLdsr0bqXiUTOCXUlDzCe/view?usp=sharing" // <-- change to your actual resume file path
+            href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing" // <-- change to your actual resume file path
             className="text-green-500 hover:text-white transition transform hover:scale-110"
             title="Resume"
             target="_blank"
@@ -85,7 +85,7 @@ function Home() {
         </a>
       
         <a
-            href="https://drive.google.com/file/d/1fQIOZc3yr-ajLdsr0bqXiUTOCXUlDzCe/view?usp=sharing" // <-- change to your actual resume file path
+            href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing" // <-- change to your actual resume file path
             className="text-green-500 hover:text-white transition transform hover:scale-110"
             title="Resume"
             target="_blank"
