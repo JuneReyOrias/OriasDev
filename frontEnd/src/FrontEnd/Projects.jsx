@@ -80,9 +80,18 @@ function Projects() {
         </div>
 
         {/* Placeholder 1 */}
-        <div className="rounded-lg shadow-lg bg-zinc-700 text-white flex flex-col justify-center items-center h-60 text-center">
-          <p className="text-lg font-semibold">Coming Soon</p>
-          <p className="text-sm text-gray-300">New project in development</p>
+               <div className="relative rounded-lg shadow-lg overflow-hidden group">
+          <img className="w-full h-60 object-cover" src="/Webprojects/FashionGyrl.png" alt="Portfolio" />
+          <a href="https://fashion-gyrl.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-80 transition-opacity flex flex-col justify-center p-5">
+              <h5 className="text-2xl font-bold text-white">Mi Porfolios</h5>
+              <p className="text-gray-300 text-sm mt-2">A personal portfolio built with Tailwind CSS showcasing modern web development.</p>
+              <div className="mt-3">
+                <p className="text-sm text-gray-300"><span className="font-semibold text-white">Role:</span> Front-end Developer</p>
+                <p className="text-sm text-gray-300"><span className="font-semibold text-white">Tech:</span> Tailwind , Django</p>
+              </div>
+            </div>
+          </a>
         </div>
 
         {/* Placeholder 2 */}
