@@ -62,7 +62,7 @@ function About() {
             <FaArrowRight className="text-sm" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1fQIOZc3yr-ajLdsr0bqXiUTOCXUlDzCe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing"
             download
             className="inline-flex justify-center items-center py-3 px-6 text-base font-medium text-white rounded-lg border border-white hover:bg-white hover:text-gray-900 transition sm:ml-4"
           >
