@@ -35,7 +35,7 @@ function Home() {
           <div className="text-center lg:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
               Hi, I'm June Rey <br />
-              <span className="text-blue-400">Web Developer</span>
+              <span className="text-blue-400">Fullstack Developer</span>
             </h1>
             <p className="mt-4 text-gray-300 text-base sm:text-lg max-w-md mx-auto lg:mx-0">
               Passionate about building modern, responsive websites with clean code,
@@ -87,7 +87,7 @@ function Home() {
               <a href="https://www.linkedin.com/in/june-rey-orias-b61189278/" className="text-blue-600 hover:text-white transition hover:scale-110" title="LinkedIn">
                 <FaLinkedin size={24} />
               </a>
-              <a href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing" className="text-green-500 hover:text-white transition hover:scale-110" title="Resume" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1bgoMWSDVLKEkiM08OkkRBPF8bfwBdZ-C/view" className="text-green-500 hover:text-white transition hover:scale-110" title="Resume" target="_blank" rel="noopener noreferrer">
                 <FaFileAlt size={24} />
               </a>
             </div>
