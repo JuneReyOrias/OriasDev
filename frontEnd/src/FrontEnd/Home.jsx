@@ -51,46 +51,95 @@ function Home() {
         </div>
 
         {/* Desktop Social Icons */}
-        <div className="hidden lg:flex flex-col gap-4 items-center absolute top-1/2 right-4 transform -translate-y-1/2 z-30">
-          <a
-            href="https://github.com/JuneReyOrias"
-            className="text-gray-500 hover:text-white transition hover:scale-110"
-            title="GitHub"
-          >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/june-rey-orias-b61189278/"
-            className="text-blue-600 hover:text-white transition hover:scale-110"
-            title="LinkedIn"
-          >
-            <FaLinkedin size={24} />
-          </a>
-          <a
-            href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing"
-            className="text-green-500 hover:text-white transition hover:scale-110"
-            title="Resume"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFileAlt size={24} />
-          </a>
-        </div>
+     <div className="hidden lg:flex flex-col gap-5 items-center absolute top-1/2 right-6 transform -translate-y-1/2 z-30">
+  {/* GitHub Profile 1 */}
+  <a
+    href="https://github.com/JuneReyOrias"
+    className="text-gray-500 hover:text-white transition-all duration-300 hover:scale-125"
+    title="GitHub Profile"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub size={24} />
+  </a>
+
+  {/* GitHub Profile 2 / Repositories */}
+  <a
+    href="https://github.com/ReiRoko-jutsu?tab=repositories"
+    className="text-gray-500 hover:text-emerald-500 transition-all duration-300 hover:scale-125"
+    title="GitHub Repositories"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub size={24} />
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/june-rey-orias-b61189278/"
+    className="text-blue-600 hover:text-white transition-all duration-300 hover:scale-125"
+    title="LinkedIn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin size={24} />
+  </a>
+
+  {/* Resume */}
+  <a
+    href="https://drive.google.com/file/d/1pVT7glrJ6kUOVBFUDFuc_LsLOS0R4nid/view?usp=sharing"
+    className="text-green-500 hover:text-white transition-all duration-300 hover:scale-125"
+    title="Resume"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaFileAlt size={24} />
+  </a>
+
+  {/* Vertical Line for better UI depth */}
+  <div className="w-[1px] h-12 bg-white/10 mt-2"></div>
+</div>
 
         {/* Mobile Floating Button */}
         <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
           {isLangOpen && (
-            <div className="flex flex-col gap-3 p-4 bg-gray-700 dark:bg-gray-800 rounded-lg shadow-lg">
-              <a href="https://github.com/JuneReyOrias" className="text-gray-400 hover:text-white transition hover:scale-110" title="GitHub">
-                <FaGithub size={24} />
-              </a>
-              <a href="https://www.linkedin.com/in/june-rey-orias-b61189278/" className="text-blue-600 hover:text-white transition hover:scale-110" title="LinkedIn">
-                <FaLinkedin size={24} />
-              </a>
-              <a href="https://drive.google.com/file/d/1bgoMWSDVLKEkiM08OkkRBPF8bfwBdZ-C/view" className="text-green-500 hover:text-white transition hover:scale-110" title="Resume" target="_blank" rel="noopener noreferrer">
-                <FaFileAlt size={24} />
-              </a>
-            </div>
+         <div className="flex flex-col gap-3 p-4 bg-gray-700 dark:bg-gray-800 rounded-lg shadow-lg">
+  {/* Primary GitHub Profile */}
+  <a href="https://github.com/JuneReyOrias" 
+     className="text-gray-400 hover:text-white transition hover:scale-110" 
+     title="GitHub Profile 1" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <FaGithub size={24} />
+  </a>
+
+  {/* Secondary/Repositories GitHub */}
+  <a href="https://github.com/ReiRoko-jutsu?tab=repositories" 
+     className="text-gray-400 hover:text-emerald-400 transition hover:scale-110" 
+     title="GitHub Repositories" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <FaGithub size={24} />
+  </a>
+
+  {/* LinkedIn */}
+  <a href="https://www.linkedin.com/in/june-rey-orias-b61189278/" 
+     className="text-blue-600 hover:text-white transition hover:scale-110" 
+     title="LinkedIn" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <FaLinkedin size={24} />
+  </a>
+
+  {/* Resume */}
+  <a href="https://drive.google.com/file/d/1bgoMWSDVLKEkiM08OkkRBPF8bfwBdZ-C/view" 
+     className="text-green-500 hover:text-white transition hover:scale-110" 
+     title="Resume" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <FaFileAlt size={24} />
+  </a>
+</div>
           )}
           <button
             onClick={() => setIsLangOpen(!isLangOpen)}
